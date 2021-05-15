@@ -9,7 +9,12 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "less": "^4.1.1",
+    "less-loader": "5.0.0",
+    "postcss-px-to-viewport": "^1.1.1",
+    "style-loader": "^2.0.0",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
