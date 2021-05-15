@@ -8,5 +8,5 @@ const routes = [
 ];
 Vue.use(Router);
 export default new Router({
-  routes, // (缩写) 相当于 routes: routes
+  routes,
 });
