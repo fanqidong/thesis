@@ -38,6 +38,14 @@
           <p>2.学科偏门？</p>
           覆盖全学科，助你成功
         </div>
+      </div>
+      <div class="question-list">
+        <div class="item">
+          <p>5.不知道如何修改？</p>
+          专业老师为您一对一服务
+        </div>
+      </div>
+      <div class="question-list">
         <div class="item">
           <p>3.重复高被打回？</p>
           论文去重，高效快速，正规可查
@@ -46,16 +54,12 @@
           <p>4.考不过毕业难？</p>
           精选优秀导师，全程服务
         </div>
-        <div class="item">
-          <p>5.不知道如何修改？</p>
-          专业老师为您一对一服务
-        </div>
       </div>
       <div class="company-wrap">
         <div class="intro">
           <div class="company-intro">公司简介</div>
           <div>
-            国内高端论文咨询机构，专业提供“论文”、“期刊”咨询，10年的运营沉淀让我们积累了丰富的团队经验建立了一套完善的服务体系，秉承“诚信做人，用心做事”的服务宗旨，为上万名客户提供了完美的论文咨询。
+            国内高端论文咨询机构，专业提供“论文”、“期刊”咨询，10年的运营沉淀让我们积累了丰富的团队经验建立了一套完善的服务体系。
           </div>
         </div>
         <div class="intro-list">
@@ -85,7 +89,7 @@
         <div class="intro">
           <div class="company-intro">服务流程</div>
           <div>
-            服务流程分步骤一步步有序的进行，每一步都会和客户进行确认，有利于确认需求及及时修改，服务过程中有问题或者建议也会及时与客户沟通。交给我们，您放心！
+            服务流程分步骤一步步有序的进行，每一步都会和客户进行确认，有利于确认需求及及时修改，服务过程中有问题或者建议也会及时与客户沟通。
           </div>
         </div>
         <div class="intro-list">
@@ -223,6 +227,9 @@ export default {
     border-radius: 4px;
     margin-bottom: 15px;
     background: url(../assets/question.jpg) no-repeat center/cover;
+    &.active {
+      background: none;
+    }
     p {
       margin-bottom: 10px;
     }
